@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+
+.container_white {
+  background-color: white;
+  width: 530px;
+  height: 600px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 4px;
+
+  .container_padding {
+    padding: 50px;
+
+  }
+
+  .container_title {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -8px;
+    color: #292929;
+  }
+
+  .container_para {
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+  }
+
+  .input_card {
+    margin-top: 10px;
+  }
+
+  .input {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .line {
+    display: flex;
+    margin-top: 10px;
+
+    .line_para {
+      font-size: 15px;
+      color: #4f4f4f;
+    }
+  }
+
+  .social_card {
+    display: flex;
+
+    .google {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 131px;
+      height: 61px;
+      background-color: #F7F7F7;
+      border-radius: 4px;
+      margin-left: 10px;
+
+    }
+
+    .apple {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 131px;
+      height: 61px;
+      background-color: #F7F7F7;
+      border-radius: 4px;
+      margin-left: 10px;
+
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 131px;
+      height: 61px;
+      background-color: #F7F7F7;
+      border-radius: 4px;
+      margin-left: 10px;
+
+    }
+  }
+
+  .card_button {
+
+    margin-top: 2rem;
+
+    .button-28 {
+      appearance: none;
+      color: #ffffff;
+      background-color: #0366FF;
+      border-radius: 15px;
+      border: none;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 16px;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      min-height: 60px;
+      min-width: 0;
+      outline: none;
+      padding: 16px 24px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 100%;
+      will-change: transform;
+    }
+
+
+
+    .button-28:hover {
+      color: #fff;
+      background-color: #1A1A1A;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      transform: translateY(-2px);
+    }
+
+    .button-28:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+  }
+}
